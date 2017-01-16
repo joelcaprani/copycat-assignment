@@ -1,0 +1,125 @@
+nav {
+  background: #06D6A0;
+}
+
+.logo {
+    background: #06D6A0;
+    color: white;
+    float: left;
+    position: absolute;
+    overflow: hidden;
+}
+
+.navbar {
+    float: right;
+    text-align: right;
+    background: #06D6A0;
+    min-width: 100%;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+  line-height: 60px;
+  overflow: auto;
+}
+
+.hero-content {
+  position: relative;
+  float: right;
+  background: #26547C;
+  margin-bottom: 0;
+  height: 361px;
+  padding-bottom: 17px;
+  color: white;
+  padding-left: 72px;
+  text-align: left;
+  bottom: 8px;
+}
+
+@media screen and (min-width: 550px)
+header {
+    overflow: hidden;
+    height: 60px;
+    padding: 0 20px;
+  }
+
+.hero-image {
+  height: 100px;
+   width: 90px;
+   position: relative;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    }
+
+.kitty {
+  height: 361px;
+  width: 617px;
+}
+
+#cats {
+    padding-top: 370px;
+    background: #FFD166;
+    font-size: 22px;
+    padding-left: 10px;
+}
+#products {
+    background: #F2F2F2;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    height: 250px;
+    border: 3px solid black;
+}
+
+p {
+    font-size: 22px;
+}
+.team-fun {
+    float: left;
+    width: 33%;
+    padding: 20px;
+    color: #EF476F;
+}
+
+.team-values {
+    float: left;
+    width: 33%;
+    padding: 20px;
+    color: #EF476F;
+}
+
+.team-meow {
+    float: right;
+    width: 33%;
+    padding: 20px;
+    color: #EF476F;
+}
+
+.team {
+  padding-left: 100px;
+  font-size: 25px;
+}
+#about {
+  padding: 10px;
+  background: #26547C;
+}
+.product-wrapper {
+    padding: 0;
+    margin: 0;
+}
+footer {
+    background: #06D6A0;
+    height: 50px;
+    margin: 0;
+    text-align: right;
+    font-size: 25px;
+    padding-right: 10px;
+}
